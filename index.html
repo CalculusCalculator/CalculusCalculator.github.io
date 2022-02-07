@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculus Calculator</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+
+<body>
+    <div>
+        <h1>
+            Calculus Calculator
+        </h1>
+        <p>
+            Write a function and it will calculate various properties of it. Example input where x^2 is the function and 0 and 4 are the lower and upper bounds: x^2, 0 4
+        </p>
+
+        f(x) = <input type="text" id="functionInput" onchange="calculateFunction()" />
+
+        <p id="derivative">Derivative:</p>
+        <p id="antiderivative">Antiderivative:</p>
+        <p id="area">Area with lower bound x and upper bound y:</p>
+        <p id="vertex">Stationary Point:</p>
+    </div>
+</body>
+<script src="main.js"></script>
+
+</html>
